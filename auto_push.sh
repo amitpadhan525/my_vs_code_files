@@ -1,6 +1,5 @@
 #!/bin/bash
-cd ~/my_vs_code_files
-
+cd /home/amit/Desktop/my_vs_code_files || exit
 git add .
-git commit -m "auto update on $(date '+%Y-%m-%d %H:%M:%S')"
+git commit -m "Auto update on $(date '+%Y-%m-%d %H:%M:%S')"
 git push origin master
