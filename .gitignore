@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.DS_Store
+path/to/bigfile.zip
+venv/
+venv/
+*.log
+*.pyc
+__pycache__/
