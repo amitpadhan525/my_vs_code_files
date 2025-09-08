@@ -1,7 +1,7 @@
 #!/bin/bash
-# THIS FILE ONLY FOR PUSH FILES AND FOLDER TO GITHUB
 
-read -p "Enter commit message: " commit
+read -p "commit : " commit
+time=$(date +"%Y-%m-%d %H:%M:%S")
 git add .
-git commit -m "$commit"
+git commit -m "$commit - $time"
 git push origin main
