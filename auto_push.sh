@@ -1,9 +1,0 @@
-#!/bin/bash
-sdbfjkbsdjknfknsdf
-sdbfjkbsdjknfknsdff
-sdbfjkbsdjknfknsdff
-sdbfjkbsdjknfknsdff
-sdbfjkbsdjknfknsdff
-sd
-my_vs_code_filess
-df
