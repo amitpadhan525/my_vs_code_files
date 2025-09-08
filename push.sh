@@ -1,8 +1,7 @@
-
+#!/bin/bash
 # THIS FILE ONLY FOR PUSH FILES AND FOLDER TO GITHUB
-# read -p "commit :" comit
-git add .
-# git commit -m "$commit"
-git commit -m "up"
 
+read -p "Enter commit message: " commit
+git add .
+git commit -m "$commit"
 git push origin main
