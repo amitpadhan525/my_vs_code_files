@@ -26,5 +26,13 @@
 #         os.remove("/home/amit/Desktop/amit.txt")
 #         print("you lost file")
 
-arr = [1, 2, 3]
-print('     '.join(str(i) for i in arr))
+# arr = [1, 2, 3]
+# print('     '.join(str(i) for i in arr))
+
+
+
+
+aa=input("enter name of file :")
+bb=input("enter what to write :")
+with open(aa,"w") as file:
+    file.write(bb)
