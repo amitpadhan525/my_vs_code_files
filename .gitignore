@@ -1,13 +1,20 @@
-venv/
+# IDEs and editors
+.vscode/
+
+# Python caches and compiled files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Logs
 *.log
+
+# System files
 .DS_Store
+
+# Virtual environments
+venv/
+
+# Large files
 path/to/bigfile.zip
-venv/
-venv/
-*.log
-*.pyc
-__pycache__/
