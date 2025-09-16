@@ -1,7 +1,5 @@
-class Demo 
-{
-public static void main(String[] args) 
-{
-System.out.println("you are beautiful");
-}
+class Demo {
+    public static void main(String[] args) {
+        System.out.println("you are beautiful");
+    }
 }
