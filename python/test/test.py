@@ -36,3 +36,6 @@ aa=input("enter name of file :")
 bb=input("enter what to write :")
 with open(aa,"w") as file:
     file.write(bb)
+
+
+    
