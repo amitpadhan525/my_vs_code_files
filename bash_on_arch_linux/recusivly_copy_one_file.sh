@@ -7,8 +7,6 @@ filename=$(basename $source)
 name="${filename%.*}"
 ext="${filename##*.}"
 
-# echo $name
-# echo $ext
 for ((i=1;i<=number;i++)); do
     cp "$source" "$destination/${name}$i.${ext}"
 done
