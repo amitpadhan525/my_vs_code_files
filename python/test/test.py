@@ -1,20 +1,59 @@
-# a=int(input("Enter 1st value"))
-# b=int(input("Enter 2nd value"))
-# # if a-b<10 or a+b<10 or (a in (5,50)):
-# #     print("True")
-# # else:
-# #     print("False")
-# print(a-b<10 or a+b<10 or (a in (5,50)))
-      
+import time
+import itertools
+import os
+
+# 💖 Infinite Happy Diwali Animation by Amit 💖
+
+def print_pattern(emoji1, emoji2, text="happy", festival="diwali", delay=0.2):
+    # Define the pattern structure
+    lines = []
+
+    # Top block
+    for _ in range(3):
+        lines.append(f"{emoji1}{text}{emoji2}{festival}{emoji1}")
+
+    # Increasing hyphen pattern
+    for i in range(1, 6):
+        lines.append(f"{'-' * i}{emoji1}{text}{emoji2}{festival}{emoji1}")
+
+    # Peak pattern (3 lines)
+    for _ in range(3):
+        lines.append(f"{'-' * 5}{emoji1}{text}{emoji2}{festival}{emoji1}")
+
+    # Decreasing hyphen pattern
+    for i in range(4, 0, -1):
+        lines.append(f"{'-' * i}{emoji1}{text}{emoji2}{festival}{emoji1}")
+
+    # Bottom block
+    for _ in range(3):
+        lines.append(f"{emoji1}{text}{emoji2}{festival}{emoji1}")
+
+    # Print with delay
+    for line in lines:
+        print(line)
+        time.sleep(delay)
 
 
-# a=int(input("Enter age"))
-# s=input("status")
+def infinite_diwali():
+    styles = [
+        ('❤', '♥'),
+        ('💚', '💚'),
+        ('💜', '💜'),
+        ('💖', '💖'),
+        ('💙', '💙')
+    ]
 
-# print(a in (12,60) or s=="yes")
+    print("💐💐💐 In Advance 💐💐💐\n")
 
-a=int(input("enter 1st "))
-b=int(input("enter 2nd "))
+    # Infinite loop
+    for e1, e2 in itertools.cycle(styles):
+        print_pattern(e1, e2, delay=0.1)  # change delay for faster/slower effect
+        print()  # space between styles
 
 
-print(a>15 or b>15)
+# Run it
+try:
+    infinite_diwali()
+except KeyboardInterrupt:
+    os.system('clear' if os.name != 'nt' else 'cls')
+    print("✨ Program stopped. Happy Diwali, Amit! ✨")
