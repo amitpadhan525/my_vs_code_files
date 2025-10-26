@@ -1,3 +1,3 @@
-arr=('ab' 'cd' 'ef')
+arr=('ab' 'cd am' 'ef')
 echo ${arr[@]}
 echo "${arr[@]}"
