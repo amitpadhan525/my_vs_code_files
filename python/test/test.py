@@ -1,9 +1,16 @@
+# for i in range(1,99):
+#     print(str(i).zfill(6))
 
 
-a=int(input())
-b=int(input())
-c=int(input())
-if a-b<25 and b-c<25 and c-a<25:
-    print("Yes")
-else:
-    print("No")
+# for i in range(10):
+#     if i==5:
+#         continue
+#         print(i)
+#         print("hello")
+#     else:
+#         print(i)
+
+
+# print(115792089237316195423570985008687907853269984665640564039457584007913129639936/100000)
+sec=115792089237316195423570985008687907853269984665640564039457584007913129639936/100000
+print("years:",int(sec/(60*60*24*365)))
