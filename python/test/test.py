@@ -1,16 +1,50 @@
-# for i in range(1,99):
-#     print(str(i).zfill(6))
+# a=int(input("enter hight: "))
+# for i in range(a):
+#     for j in range(i+1):
+#         print(i,end=" ")
+#     print()
 
 
-# for i in range(10):
-#     if i==5:
-#         continue
-#         print(i)
-#         print("hello")
+# a=int(input("enter hight: "))
+# a=5
+# for i in range(a+1):
+#     if a==i:
+
+#       print(("+"+" ")*i)
 #     else:
-#         print(i)
+#       print(("*"+" ")*i)
 
 
-# print(115792089237316195423570985008687907853269984665640564039457584007913129639936/100000)
-sec=115792089237316195423570985008687907853269984665640564039457584007913129639936/100000
-print("years:",int(sec/(60*60*24*365)))
+
+
+# a=int(input("enter : "))
+# avg=0
+# for i in range(1,a+1):
+# a=int(input("enter : "))
+
+#   avg=avg+i
+# print(avg/a)
+
+
+# a=5
+# b=1
+# m=1
+# if m!=0:
+#   for i in range(min(a,b),max(a,b)):
+#     if i%3==0:
+#       m=m*i
+# else:
+#   print(0)
+# print(m)
+  
+
+
+# n=2
+# k=2
+# p=0
+# for i in range(n+1):
+#   p=p+(i+1)**k
+# print(p)
+
+
+
