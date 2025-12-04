@@ -22,7 +22,18 @@
 # print(sum)
 
 
-from question_and_ans.perfact_number import is_perfact
+# from question_and_ans.perfact_number import is_perfact
 
-if is_perfact(28):
-    print("PERFACT")
+# if is_perfact(28):
+#     print("PERFACT")
+
+
+
+# a="amd sdfsd"
+# print(a.upper())
+# print(a.lower())
+
+
+
+
+
