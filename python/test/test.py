@@ -36,4 +36,7 @@
 
 
 
-
+def aa(a):
+    return 0
+    print("amit")
+print(aa(2))
