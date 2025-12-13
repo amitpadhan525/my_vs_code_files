@@ -1,3 +1,4 @@
+#!/bin/bash
 nmcli device wifi list
 read -p "Enter channel :" ch
 read -p "Enter BSSID :" bssid

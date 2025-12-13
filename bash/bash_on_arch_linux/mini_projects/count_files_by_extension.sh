@@ -1,3 +1,4 @@
+#!/bin/bash
 path=/home/spider/my_vs_code_files
 
 for file in "$path"/*; do

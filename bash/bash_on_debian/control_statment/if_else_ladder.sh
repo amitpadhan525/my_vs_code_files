@@ -1,3 +1,4 @@
+#!/bin/bash
 read -p "Enter a number :" a
 read -p "Enter another number :" b
 if [ $a -eq $b ];then

@@ -1,42 +1,18 @@
+# EXACT pattern from your image
 
+rows = [
+    10,  # row 1
+    9,   # row 2
+    8,   # row 3
+    7,   # row 4 (split shape begins)
+    4,   # row 5 left stars
+    2    # row 6 left stars
+]
 
-# a=5
-# arr=[]
-# for i in range(a):
-#   arr.append(int(input()))
+def exact_pattern():
+    spaces = 0
+    for r in rows:
+        print(" " * spaces + "* " * r)
+        spaces += 1
 
-# print(max(arr))
-
-
-# a=5
-# max=0
-# for i in range(a):
-#   ab=int(input())
-#   if max<ab:
-#     max=ab
-# print(max)
-
-# a,sum=int(input("enter : ")),0
-# for i in range(a+1):
-#     sum=sum+i**(len(str(a)))
-# print(sum)
-
-
-# from question_and_ans.perfact_number import is_perfact
-
-# if is_perfact(28):
-#     print("PERFACT")
-
-
-
-# a="amd sdfsd"
-# print(a.upper())
-# print(a.lower())
-
-
-
-
-def aa(a):
-    return 0
-    print("amit")
-print(aa(2))
+exact_pattern()

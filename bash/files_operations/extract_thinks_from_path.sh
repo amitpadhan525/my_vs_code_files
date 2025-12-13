@@ -1,3 +1,4 @@
+#!/bin/bash
 path=/home/spider/amit.txt
 
 filename=$(basename $path)

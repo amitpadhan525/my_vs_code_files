@@ -1,3 +1,4 @@
+#!/bin/bash
 read -p "Enter source file path : " source
 read -p "Enter destination path : " destination
 read -p "How many times copy : " number
